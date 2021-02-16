@@ -1,0 +1,1019 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.row .col .no-gap {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 !important;
+    min-height: 1px;
+}
+.navbar-fixed {
+    position: relative;
+    height: 56px;
+    z-index: 997;
+    margin-top: -15px;
+}
+.row.top-nav {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+.hide-container{
+    width:95%;
+}
+.navbar-fixed nav {
+    position: absolute;
+}
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    perspective: 500px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+}
+.navigation{
+    margin-right: 30px;
+}
+.hero1 {
+    height: auto;
+    display: block;
+}
+.tabs .tab a {
+    color: black;
+    /*Custom Text Color*/
+  }
+  .tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #ee6e73;
+}
+  .tabs .tab a:hover {
+    color:indigo;
+    /*Custom Color On Hover*/
+  }
+  .tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: indigo;
+}
+  .tabs .tab a:focus.active {
+    color:indigo;
+    /*Custom Text Color While Active*/
+    background-color:whitesmoke;
+    /*Custom Background Color While Active*/
+  }
+  
+  .tabs .indicator {
+    background-color:indigo;
+    /*Custom Color Of Indicator*/
+  }
+.hero2 {
+    height: auto;
+    display: block;
+}
+.slider-fill img {
+    object-fit: cover;
+   max-width:100%;
+    height: 100%;
+}
+
+.hide {
+    display: none;
+}
+.explore-text {
+    top: 30px;
+    font-size: 50px;
+    
+}
+ .greece-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top:32px;
+    font-family:Impact !important;
+    font-size: 55px;
+    
+}
+
+.packages1 {
+    background-color: whitesmoke;
+    height: auto;
+}
+
+.packages-2 {
+background-color: whitesmoke;
+    height: auto;
+
+}
+
+.packages3a {
+    margin-top: 50px;
+}
+
+.details-slide.carousel-fixed-item {
+    height: 400px !important;
+    width: 238px !important;
+    position: sticky !important;
+
+
+}
+
+.detail-btn{
+    margin-top:20px
+}
+
+
+
+.b1 {
+    position: relative;
+    margin-top: 70px;
+    margin-left: 47px;
+    font-weight: 700;
+}
+
+.grey-text {
+    position: absolute;
+}
+
+.text-slider {
+    margin-top: -80px;
+    width: 260px !important;
+    height: 400px;
+}
+
+.text-slider1 {
+    margin-top: -80px;
+    width: 260px !important;
+    height: 200px;
+}
+
+
+.thumb {
+    margin-top: 50px;
+}
+
+.carousel.carousel-slider {
+  
+    width: 100% !important;
+    margin-top: 85px;
+    position: relative;
+}
+
+
+.indicators {
+    top: 0;
+
+}
+
+.carousel .carousel-item {
+
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+
+}
+
+.indicators>.indicator-item {
+    background-color: wheat !important;
+
+}
+
+
+
+#clicks {
+
+    height: auto;
+    
+}
+
+.gallery-animate{
+    opacity: 0;
+}
+.gallery-animate.animated{
+    opacity: 1;
+}
+.package-animate{
+    opacity: 0;
+}
+.package-animate.animated{
+    opacity: 1;
+}
+.package1-animate{
+    opacity: 0;
+}
+.package1-animate.animated{
+    opacity: 1;
+}
+.slider-animate{
+    opacity: 0;
+}
+.slider-animate.animated{
+    opacity: 1;
+}
+.package-slider-animate{
+    opacity: 0;
+}
+.package-slider-animate.animated{
+    opacity: 1;
+}
+.activity{
+    height:1000px
+}
+.activity-animate{
+    opacity: 0;
+}
+
+.activity-animate.animated{
+    opacity: 1;
+}
+.card-animate{
+    opacity: 0;
+}
+.card-animate.animated{
+    opacity: 1;
+}
+.activity1-animate{
+    opacity: 0;
+}
+.activity1-animate.animated{
+    opacity: 1;
+}
+.card1-animate{
+    opacity: 0;
+}
+.card1-animate.animated{
+    opacity: 1;
+}
+.path-animate{
+    opacity: 0;
+}
+.path-animate.animated{
+    opacity: 1;
+}
+.slider-gallery{
+    opacity: 0;
+}
+.slider-gallery.animated{
+    opacity: 1;
+}
+.explore-activities {
+    opacity: 0;
+}
+
+.explore-activities.animated{
+    opacity: 1;
+}
+.about-animate {
+    opacity: 0;
+}
+
+.about-animate.animated{
+    opacity: 1;
+}
+.about-img-animate {
+    opacity: 0;
+}
+
+.about-img-animate.animated{
+    opacity: 1;
+}
+
+.activity-text {
+    position: relative;
+    top: 100;
+    left: 5;
+}
+
+
+
+.img-container {
+    position: relative;
+    height: 600px;
+
+
+}
+
+
+.margin-top{
+margin-top: 100px;
+}
+.parallax-img {
+    position: absolute;
+    height: 600px;
+
+
+}
+.responsive-img .about-img{
+    object-fit: cover;
+    width:100%;
+    height:300px
+}
+
+
+
+.activity-text {
+    position: relative;
+    top: 100;
+}
+
+
+.container .hide-container{
+    width:95% !important;
+}
+
+.parallax-img {
+    position: absolute;
+
+
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    margin-top: -65px;
+}
+
+.explore-activities {
+
+    height: auto;
+}
+
+.see-activities {
+
+    height: auto;
+}
+
+
+
+
+.team-img .responsive-img{
+    object-fit:cover;
+    height:500px;
+    width:80%;
+ 
+}
+.about {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+ 
+}
+
+.about-text {
+
+    height: auto;
+}
+
+
+
+.form {
+    width: 100%;
+    height: auto;
+}
+
+
+.form {
+    margin-top: 80px;
+}
+
+
+
+
+.thumbnail {
+    position: absolute;
+    height: 200px;
+}
+
+.thumbnail1 {
+    position: absolute;
+    height: 200px;
+    width: 240px;
+}
+
+.package-slider {
+    position: relative;
+    width: 500px;
+
+
+}
+#pak{
+    background-color:whitesmoke;
+}
+.home-text{
+    background-color:whitesmoke;
+}
+
+.contact-img1 {
+    position: relative;
+    height: 484px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .thumbnail {
+        position: absolute;
+        height: 200px;
+        width: 150px;
+    }
+
+    .carousel-fixed-item {
+        height: 200px !important;
+        width: 238px !important;
+        position: sticky !important;
+    }
+
+    .contact-img {
+        z-index: -999;
+        position: absolute;
+        width: 100%;
+        height: 100% !important;
+        object-fit: cover;
+    }
+
+
+    .explore-btn {
+        margin-top: 50px;
+    }
+
+
+    .card {
+
+        width: 180px;
+    }
+
+
+
+    .p1 {
+        height: 480px !important;
+        width: 100% !important;
+    }
+
+
+
+    .text-slider1 {
+        width: 260px !important;
+        height: 200px;
+       
+
+    }
+
+    .text-slider {
+        margin-top: -70px;
+        width: 260px !important;
+        height: 400px;
+    }
+
+   
+
+    .img-container {
+        position: relative;
+        height: 600px;
+        margin-right: 15px;
+    }
+
+    .carousel.carousel-slider {
+      
+        width: 100% !important;
+        margin-top: 85px;
+        position: relative;
+    }
+
+
+
+    
+
+    .activity-btn {
+        margin-top: 120px;
+    }
+    .slider-gallery{
+margin-top: -160px;
+    }
+    .book-btn{
+        position: absolute;
+        top:20;
+        right:15;
+
+    }
+    .detail-btn{
+        margin-top:12px
+    }
+    .fil.responsive-img{
+        z-index:-999;
+        object-fit: cover;
+        width: 100%;
+        height:400px;
+        position: relative;
+    
+        
+    }
+    .fil-text{
+        position:absolute;
+        left:140;
+        z-index: 1;
+        top:10;
+        
+    }
+        
+    
+    .fil-container
+    {
+        position: relative;
+        height:400px;
+       
+    }
+    .explore-text{
+       font-size:40px;
+        top:50px;
+        
+      
+       
+        
+    }
+ .margin-top{
+     margin-top:0px;
+ }
+ 
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    width: 70%;
+}
+.progress {
+    position: relative;
+    height: 4px;
+    display: block;
+    width: 80%;
+    background-color: grey;
+    border-radius: 2px;
+    margin: .5rem 0 1rem 0;
+    overflow: hidden;
+
+}
+}
+
+@media screen and (min-width:600px) {
+    .thumbnail {
+        position: absolute;
+        height: 200px;
+        width: 150px;
+    }
+    .fil.responsive-img{
+        z-index:-999;
+        object-fit: cover;
+        width: 100%;
+        height:400px;
+        position: relative;
+    
+        
+    }
+    .progress {
+        position: relative;
+        height: 4px;
+        display: block;
+        width: 80%;
+        background-color: grey;
+        border-radius: 2px;
+        margin: .5rem 0 1rem 0;
+        overflow: hidden;
+    
+    }
+    .fil-text{
+        position:absolute;
+        left:50;
+        z-index: 1;
+        
+    }
+        
+    
+    .fil-container
+    {
+        position: relative;
+        height:400px;
+       
+    }
+    .thumbnail1 {
+        position: absolute;
+        height: 200px;
+        width: 240px;
+    }
+
+    .contact-img {
+        z-index: -999;
+        position: absolute;
+        max-width: 100%;
+        height: 100% !important;
+
+    }
+
+    .p1 {
+        height: 580px !important;
+        width: 80%;
+    }
+
+   
+
+    .activity-btn {
+        margin-top: 120px;
+    }
+
+  
+    .about-layer {
+        margin-top: 0px;
+        margin-left: -22px;
+    }
+
+    .carousel.carousel-slider {
+       
+        width: 100% !important;
+        margin-top: 85px;
+        position: relative;
+    }
+
+    .packages2 {
+        margin-top: 20px;
+    }
+
+    .our-text {
+        margin-right: 90px;
+    }
+    .slider-gallery{
+        margin-top: -140px;
+            }
+            .detail-btn{
+                margin-top:12px
+            }
+            .activity-para {
+                position: absolute;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 75px;
+                z-index: -1000;
+                top: 107px;
+            }
+.margin-top{
+    margin-top:0px;
+}
+}
+
+@media screen and (min-width:992px) {
+    .p1 {
+        height: 560px !important;
+        width: 100%;
+    }
+    nav .brand-logo {
+        position: absolute;
+        color: #fff;
+        display: inline-block;
+        font-size: 2.1rem;
+        left: 40px;
+        top:3px;
+    }
+    .btn {
+        margin-left: 124px;
+    }
+
+
+    .about-layer {
+        margin-top: 120px;
+        margin-left: -1px;
+    }
+
+    .contact-img {
+        z-index: -999;
+        position: absolute;
+        width: 100%;
+
+    }
+
+    .contact-layer {
+        margin-left: 18px;
+    }
+
+    .carousel.carousel-slider {
+       
+        width: 99% !important;
+        margin-top: 85px;
+        position: relative;
+    }
+
+    
+
+    .activity-text {
+        position: relative;
+        top: 40;
+    }
+
+    .book-btn1 {
+        margin-top: 0px !important;
+        margin-right: -9px !important;
+    }
+    .detail-btn{
+        margin-top:15px
+    }
+    .progress {
+        position: relative;
+        height: 4px;
+        display: block;
+        width: 25%;
+        background-color: grey;
+        border-radius: 2px;
+        margin: .5rem 0 1rem 0;
+        overflow: hidden;
+    
+    }
+    }
+   
+
+
+@media screen and (min-width:1200px) {
+
+    nav .brand-logo {
+        position: absolute;
+        color: #fff;
+        display: inline-block;
+        font-size: 2.1rem;
+        left: 40px;
+        top:3px;
+       
+    }
+    .carousel.carousel-slider {
+   
+        width: 99% !important;
+        margin-top: 80px;
+        position: relative;
+    }
+
+    .btn {
+        margin-left: 180px;
+
+
+    }
+    .progress {
+        position: relative;
+        height: 4px;
+        display: block;
+        width: 25%;
+        background-color: grey;
+        border-radius: 2px;
+        margin: .5rem 0 1rem 0;
+        overflow: hidden;
+    
+    }
+    .card {
+
+        width: 180px;
+        margin-top: 33px;
+    }
+
+    .contact-img {
+        z-index: -999;
+        position: absolute;
+        width: 100%;
+    }
+
+   
+    
+    .activity-text {
+        position: relative;
+        top: 100;
+        right: 41;
+    }
+
+    .about-layer {
+        margin-top: 120px;
+        margin-left: -1px;
+    }
+
+    
+
+    .book-btn1 {
+        margin-top: 2px;
+    margin-right: 28px;
+    }
+    .slider-gallery{
+        margin-top: 0px;
+    }
+    .text-slider1 {
+        height: 250px;
+        margin-bottom: 40px;
+
+    
+}
+.detail-btn{
+    margin-top:20px
+}
+}
+
+@media screen and (min-width:1300px) and (max-width:1980px) {
+    
+
+
+
+    .contact-layer {
+        margin-left: -15px;
+    }
+
+    .carousel.carousel-slider {
+height:80% !important;
+        width: 99% !important;
+       
+        position: relative;
+    }
+}
+
+
+
+@media screen and (min-width:360px) and (max-width:1200px){
+    .slider-gallery{
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    .fill .responsive-img {
+        object-fit: cover;
+        width: 100%;
+        height:600px ;
+        margin-left:20px;
+        
+    }
+    .package-fill img {
+        height: 180px;
+        object-fit: cover;
+        max-width: 100%;
+    }
+    .fil.responsive-img{
+        object-fit: cover;
+        width: 100%;
+        height:300px;
+        position: relative;
+    
+        
+    }
+    .fil-text{
+        position:absolute;
+        z-index:1
+
+    }
+        
+    .see-activities{
+        height: 1000px;
+    }
+    .fil-container
+    {
+        position: relative;
+        height:300px;
+       
+    }
+    .activity-para {
+        top: 106px;
+        position: absolute;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 75px;
+        z-index: -1000;
+    }
+    .greece-text{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: absolute;
+        top:45px;
+        font-family:Impact !important;
+        font-size: 50px;
+        left:-30px;
+        
+    }
+    .margin-top {
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width:1201px) and (max-width:1500px){
+    .fill .responsive-img {
+        object-fit: cover;
+        width: 100%;
+        height:640px ;
+        margin-left:20px;
+        
+    }
+    .package-fill img {
+        object-fit: cover;
+        width: 100%;
+        height: 230px;
+    }
+    .fil.responsive-img{
+        object-fit: cover;
+        width: 100%;
+        height:350px;
+        
+    }
+    .fil-text{
+        position:absolute;
+        left:50;
+        z-index: 1;
+    }
+        
+    .see-activities{
+        height: 1000px;
+    }
+    .fil-container
+    {
+        position: relative;
+        height:350px;
+       
+    }
+    .see-activities{
+        height: 1000px;
+    }
+    .activity-para {
+        position: absolute;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 80px;
+        z-index: -1000;
+        top: 113px;
+    }
+    .greece-text {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: absolute;
+        top: 32px;
+        font-family: Impact !important;
+        font-size: 55px;
+        left: -120px;
+    }
+    .team-img .responsive-img {
+        object-fit: cover;
+        height: 600px;
+        width: 80%;
+    }
+    }
+
+@media screen and (min-width:1501px) and (max-width:5300px){
+    .fill .responsive-img {
+        object-fit: cover;
+        width: 100%;
+        height:720px;
+        margin-left:20px;
+        
+    }
+    .package-fill img {
+        object-fit: cover;
+        width: 100%;
+        height: 350px;
+    }
+    .fil.responsive-img{
+        object-fit: cover;
+        width: 100%;
+        height:400px;
+        position: relative;
+    
+        
+    }
+    .fil-text{
+        position:absolute;
+        left:50;
+        z-index: 1;
+    }
+        
+    
+    .fil-container
+    {
+        position: relative;
+        height:400px;
+       
+    }
+    .greece-text {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: absolute;
+        top: 32px;
+        font-family: Impact !important;
+        font-size: 55px;
+       left:-30px;
+    }
+    .team-img .responsive-img {
+        object-fit: cover;
+        height: 841px;
+        width: 80%;
+    }
+}
+@media screen and (min-width:610px) and (max-width:667px){
+   .activity-para {
+        position: absolute;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 68px;
+        z-index: -1000;
+        top: 95px;
+    }  
+}
+@media screen and (max-width:610px){
+    .activity-para {
+        position: absolute;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        z-index: -1000;
+        top: 52px;
+    }
+}
