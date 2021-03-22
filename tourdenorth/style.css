@@ -449,7 +449,7 @@ body {
   }
   .fil-text {
     position: absolute;
-    left: 25%;
+    left: 31% !important;
     z-index: 1;
     top: 10;
   }
@@ -459,7 +459,7 @@ body {
     height: 400px;
   }
   .explore-text {
-    font-size: 40px;
+    font-size: 46px;
     top: 50px;
   }
   .margin-top {
@@ -511,7 +511,7 @@ body {
   }
   .fil-text {
     position: absolute;
-    left: 29%;
+    left: 39%;
     z-index: 1;
   }
 
